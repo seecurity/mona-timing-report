@@ -1,5 +1,7 @@
 # mona-timing-report
- 
+
+A tool for analyzing timing measurements.
+
 ## Preconditions
 
 - Installed Java JDK and Apache ANT 
