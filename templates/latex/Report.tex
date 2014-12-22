@@ -1,0 +1,92 @@
+%% Header
+\documentclass[
+    oneside,        
+    12pt
+    ]{scrbook}
+
+
+%% Language 
+\usepackage[USenglish]{babel} %francais, polish, spanish, ...
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+\usepackage{lmodern} %Type1-font for non-english texts and characters
+
+\usepackage[
+bookmarks=true,
+bookmarksopen=true,
+bookmarksnumbered=true,
+colorlinks=true,
+linkcolor=black,
+anchorcolor=black,
+citecolor=black,
+filecolor=black,
+menucolor=black,
+urlcolor=black]{hyperref}
+
+%% Packages for Graphics & Figures 
+\usepackage{graphicx} %%For loading graphic files
+\usepackage{rotating} %%For sidewayfigures
+
+%% Line Spacing 
+\usepackage{setspace}
+\singlespacing        %% 1-spacing (default)
+
+%% Other Packages 
+\usepackage{fancyhdr} %%Fancy headings
+\usepackage{longtable} %%For tables, that exceed one page
+
+
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=4cm]{../../unilogo.pdf}}
+\fancyhead[C]{\rightmark}
+\fancyhead[R]{::name:::} 
+\fancyfoot[C]{\thepage} %sitenumbering
+\renewcommand{\footrulewidth}{0.4pt} 
+\fancypagestyle{plain}{}
+
+\renewcommand{\headrulewidth}{0.5pt}
+
+%% Document
+\begin{document}
+
+\pagestyle{empty} %No headings for the first pages.
+
+
+%% Title Page 
+\title{\textsc{\fontsize{18pt}{12pt}\linespread {1.7}\selectfont{{FAU-Timer Reporter}}}
+				 \vspace{4cm}
+         \hspace{1cm}
+         \vspace{2cm}
+         \includegraphics[height=4cm]{../../unilogo.pdf}
+         \author{}
+}
+
+\maketitle
+
+\tableofcontents            % table of contens
+\listoffigures 							% list of figures
+
+
+\pagestyle{fancy} %Now display headings: headings / fancy / ...
+
+%% Chapters
+\chapter{Measurement Overview}
+\section{::name:::}
+\begin{longtable}{|l|l|l|l|l|l|}
+\hline
+::Spalte1::: & ::Spalte2::: & ::Spalte3::: & ::Spalte4::: & ::Spalte5::: & ::Spalte6::: \\
+\hline
+\hline
+::tableContent:::
+\end{longtable}
+\section{Timeline Results}
+::timelines:::
+\newpage
+
+\chapter{Results}
+In this chapter the report shows the unfiltered timing measurements. For graphic analysis, the reporting tool uses several types of graphics. These graphics visualize the differences between the timing measurements of the different secrets. The reporting tool helps to analyze the results of a timing measurement by displaying the results in an accessible way. 
+
+::results:::
+   	
+\end{document}
+

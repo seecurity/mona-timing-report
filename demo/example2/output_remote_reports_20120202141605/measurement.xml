@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0" class="java.beans.XMLDecoder">
+ <object class="reportingTool.Measurement" property="instance">
+  <void property="measurementName">
+   <string>Demo-Example1</string>
+  </void>
+  <void property="outputFile">
+   <string>reports_20120202141605</string>
+  </void>
+  <void property="reader">
+   <object class="input.ReadCsv"/>
+  </void>
+  <void property="secrets">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="reportingTool.Secret">
+      <void property="name">
+       <string>0</string>
+      </void>
+      <void property="times">
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>56</long>
+         </void>
+         <void property="time">
+          <long>17846417</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>98</long>
+         </void>
+         <void property="time">
+          <long>17865461</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>80</long>
+         </void>
+         <void property="time">
+          <long>17885060</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>30</long>
+         </void>
+         <void property="time">
+          <long>17899394</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>34</long>
+         </void>
+         <void property="time">
+          <long>17915161</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>78</long>
+         </void>
+         <void property="time">
+          <long>17926451</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>74</long>
+         </void>
+         <void property="time">
+          <long>17932007</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>6</long>
+         </void>
+         <void property="time">
+          <long>17946252</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>24</long>
+         </void>
+         <void property="time">
+          <long>17952358</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>50</long>
+         </void>
+         <void property="time">
+          <long>17974810</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>46</long>
+         </void>
+         <void property="time">
+          <long>17982149</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>20</long>
+         </void>
+         <void property="time">
+          <long>17987817</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>4</long>
+         </void>
+         <void property="time">
+          <long>17998553</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>18</long>
+         </void>
+         <void property="time">
+          <long>17998624</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>76</long>
+         </void>
+         <void property="time">
+          <long>18018680</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="time">
+          <long>18029729</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>54</long>
+         </void>
+         <void property="time">
+          <long>18029899</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>82</long>
+         </void>
+         <void property="time">
+          <long>18037942</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>52</long>
+         </void>
+         <void property="time">
+          <long>18046502</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>44</long>
+         </void>
+         <void property="time">
+          <long>18046822</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>66</long>
+         </void>
+         <void property="time">
+          <long>18051926</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>92</long>
+         </void>
+         <void property="time">
+          <long>18053364</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>36</long>
+         </void>
+         <void property="time">
+          <long>18067833</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>32</long>
+         </void>
+         <void property="time">
+          <long>18073722</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>88</long>
+         </void>
+         <void property="time">
+          <long>18074097</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>70</long>
+         </void>
+         <void property="time">
+          <long>18081770</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>72</long>
+         </void>
+         <void property="time">
+          <long>18090948</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>28</long>
+         </void>
+         <void property="time">
+          <long>18099980</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>48</long>
+         </void>
+         <void property="time">
+          <long>18106559</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>38</long>
+         </void>
+         <void property="time">
+          <long>18113410</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>40</long>
+         </void>
+         <void property="time">
+          <long>18117148</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>16</long>
+         </void>
+         <void property="time">
+          <long>18118570</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>8</long>
+         </void>
+         <void property="time">
+          <long>18120731</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>64</long>
+         </void>
+         <void property="time">
+          <long>18131161</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>26</long>
+         </void>
+         <void property="time">
+          <long>18134896</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>12</long>
+         </void>
+         <void property="time">
+          <long>18164653</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>62</long>
+         </void>
+         <void property="time">
+          <long>18178049</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>94</long>
+         </void>
+         <void property="time">
+          <long>18200014</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>14</long>
+         </void>
+         <void property="time">
+          <long>18211442</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>10</long>
+         </void>
+         <void property="time">
+          <long>18225339</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>60</long>
+         </void>
+         <void property="time">
+          <long>18248143</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>42</long>
+         </void>
+         <void property="time">
+          <long>18617247</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>68</long>
+         </void>
+         <void property="time">
+          <long>18912027</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>96</long>
+         </void>
+         <void property="time">
+          <long>19815233</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>22</long>
+         </void>
+         <void property="time">
+          <long>20188515</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>58</long>
+         </void>
+         <void property="time">
+          <long>24936655</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>86</long>
+         </void>
+         <void property="time">
+          <long>33724121</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>90</long>
+         </void>
+         <void property="time">
+          <long>35372943</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>84</long>
+         </void>
+         <void property="time">
+          <long>55317874</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>2</long>
+         </void>
+         <void property="time">
+          <long>89484768</long>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="reportingTool.Secret">
+      <void property="name">
+       <string>1</string>
+      </void>
+      <void property="times">
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>99</long>
+         </void>
+         <void property="time">
+          <long>16616005</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>31</long>
+         </void>
+         <void property="time">
+          <long>16627195</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>51</long>
+         </void>
+         <void property="time">
+          <long>16645802</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>53</long>
+         </void>
+         <void property="time">
+          <long>16646759</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>87</long>
+         </void>
+         <void property="time">
+          <long>16649520</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>73</long>
+         </void>
+         <void property="time">
+          <long>16655813</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>25</long>
+         </void>
+         <void property="time">
+          <long>16681249</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>35</long>
+         </void>
+         <void property="time">
+          <long>16687379</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>23</long>
+         </void>
+         <void property="time">
+          <long>16687381</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>49</long>
+         </void>
+         <void property="time">
+          <long>16695162</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>9</long>
+         </void>
+         <void property="time">
+          <long>16706013</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>83</long>
+         </void>
+         <void property="time">
+          <long>16707270</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>43</long>
+         </void>
+         <void property="time">
+          <long>16710917</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>69</long>
+         </void>
+         <void property="time">
+          <long>16713843</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>81</long>
+         </void>
+         <void property="time">
+          <long>16713965</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>27</long>
+         </void>
+         <void property="time">
+          <long>16715576</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>37</long>
+         </void>
+         <void property="time">
+          <long>16729620</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>75</long>
+         </void>
+         <void property="time">
+          <long>16731299</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>63</long>
+         </void>
+         <void property="time">
+          <long>16742158</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>1</long>
+         </void>
+         <void property="time">
+          <long>16745545</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>33</long>
+         </void>
+         <void property="time">
+          <long>16748278</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>19</long>
+         </void>
+         <void property="time">
+          <long>16749342</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>3</long>
+         </void>
+         <void property="time">
+          <long>16756410</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>13</long>
+         </void>
+         <void property="time">
+          <long>16762211</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>55</long>
+         </void>
+         <void property="time">
+          <long>16762597</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>39</long>
+         </void>
+         <void property="time">
+          <long>16768299</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>11</long>
+         </void>
+         <void property="time">
+          <long>16770028</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>41</long>
+         </void>
+         <void property="time">
+          <long>16779754</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>71</long>
+         </void>
+         <void property="time">
+          <long>16783688</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>7</long>
+         </void>
+         <void property="time">
+          <long>16786763</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>89</long>
+         </void>
+         <void property="time">
+          <long>16795091</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>45</long>
+         </void>
+         <void property="time">
+          <long>16797530</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>59</long>
+         </void>
+         <void property="time">
+          <long>16809886</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>95</long>
+         </void>
+         <void property="time">
+          <long>16818912</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>65</long>
+         </void>
+         <void property="time">
+          <long>16822629</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>5</long>
+         </void>
+         <void property="time">
+          <long>16931130</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>17</long>
+         </void>
+         <void property="time">
+          <long>16955684</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>15</long>
+         </void>
+         <void property="time">
+          <long>16971793</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>79</long>
+         </void>
+         <void property="time">
+          <long>17060720</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>77</long>
+         </void>
+         <void property="time">
+          <long>17149462</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>61</long>
+         </void>
+         <void property="time">
+          <long>17427621</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>93</long>
+         </void>
+         <void property="time">
+          <long>17517550</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>47</long>
+         </void>
+         <void property="time">
+          <long>17771615</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>91</long>
+         </void>
+         <void property="time">
+          <long>18115813</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>21</long>
+         </void>
+         <void property="time">
+          <long>20712824</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>29</long>
+         </void>
+         <void property="time">
+          <long>25205251</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>85</long>
+         </void>
+         <void property="time">
+          <long>26710155</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>67</long>
+         </void>
+         <void property="time">
+          <long>26986217</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>97</long>
+         </void>
+         <void property="time">
+          <long>48362255</long>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="reportingTool.Time">
+         <void property="id">
+          <long>57</long>
+         </void>
+         <void property="time">
+          <long>77582453</long>
+         </void>
+        </object>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

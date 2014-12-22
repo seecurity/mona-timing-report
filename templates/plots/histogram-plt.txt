@@ -1,0 +1,19 @@
+set title "Histogram"
+set datafile separator "	"
+unset grid
+set key outside box
+unset parametric
+unset polar
+set ylabel "Frequency"
+set terminal ::terminal:::
+set output "::output:::"
+set boxwidth 0.9 relative
+set style histogram clustered gap 1
+set style fill solid border -1
+set xtics border in scale 3,1 nomirror rotate by -45 offset character 0, 0, 0 
+set size 1.0,0.8
+set origin 0.0,0.2
+set xlabel "Time"
+unset logscale
+set autoscale
+plot	::plot:::

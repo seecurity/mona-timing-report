@@ -1,0 +1,17 @@
+set title "Box-Plot"
+set datafile separator "	"
+unset grid
+set key outside box
+unset parametric
+unset polar
+set xlabel "Secrets"
+set ylabel "Time"
+set xtics 0
+set terminal ::terminal:::
+set output "::output:::"
+set boxwidth 0.8 absolute
+set style fill solid 0.6 border -1
+unset logscale
+set autoscale
+set xrange [0:3]
+plot	::plot:::

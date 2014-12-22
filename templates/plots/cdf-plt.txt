@@ -1,0 +1,14 @@
+set title "CDF"
+set datafile separator "	"
+unset grid
+set key outside box
+unset parametric
+unset polar
+set xlabel "Time"
+set ylabel "probability accumulated"
+set terminal ::terminal:::
+set output "::output:::"
+unset logscale
+set autoscale
+set yrange [0:1]
+plot	::plot:::
