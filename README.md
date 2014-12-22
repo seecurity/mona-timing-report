@@ -49,7 +49,6 @@ replaces the default values of the parameters. The values of the `config.ini`
 will be superseeded by parameters specified as command line arguments.
 
 ## Writing a Valid Input File
--------------------------------
 
 - The first column is a identifier, they must be distinct.
 - The second column is reserved by the secrets.
