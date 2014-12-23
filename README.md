@@ -48,7 +48,7 @@ $ java -jar ReportingTool.jar --inputFile=/path/to/file --name=NameofMeasurement
 
 The `config.ini` can be used to set parameters of the Reporting Tool. It
 replaces the default values of the parameters. The values of the `config.ini`
-will be superseeded by parameters specified as command line arguments.
+will be superseded by parameters specified as command line arguments.
 
 ## Writing a Valid Input File
 
