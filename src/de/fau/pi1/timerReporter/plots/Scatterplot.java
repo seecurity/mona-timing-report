@@ -43,13 +43,8 @@ public class Scatterplot extends Plot {
 
 		StringBuilder secrets = new StringBuilder();
 		for(int i = 0; i < dataset.getSecrets().size(); i++){
-			if(i == 0) {
-				secrets.append("\"" + "reportingTool_tmp" + gSep + uniqueName + "-" + "scatterplot_" + dataset.getSecrets().get(i).getFileName() + ".txt" + "\"" +
-						" using 1:2 title \"Secret " + dataset.getSecrets().get(i).getName().replaceAll("([\\\\{}_\\^#&$%~\"])", "") + "\" with points pt 2");
-			} else if(i == 1) {
-				secrets.append("\"" + "reportingTool_tmp" + gSep + uniqueName + "-" + "scatterplot_" + dataset.getSecrets().get(i).getFileName() + ".txt" + "\"" +
-						" using 1:2 title \"Secret " + dataset.getSecrets().get(i).getName().replaceAll("([\\\\{}_\\^#&$%~\"])", "") + "\" with points pt 6"); //or circles lt 3
-			}
+			secrets.append("\"" + "reportingTool_tmp" + gSep + uniqueName + "-" + "scatterplot_" + dataset.getSecrets().get(i).getFileName() + ".txt" + "\"" +
+						" using 1:2 title \"Secret " + dataset.getSecrets().get(i).getName().replaceAll("([\\\\{}_\\^#&$%~\"])", "") + "\" with points"); //or circles lt 3
 			if((i + 1) < dataset.getSecrets().size()) {
 				secrets.append(",\\\n");
 			}
