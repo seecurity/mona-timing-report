@@ -6,7 +6,7 @@ unset parametric
 unset polar
 set xlabel "Secrets"
 set ylabel "Time"
-set xtics 0
+unset xtics
 set terminal ::terminal:::
 set output "::output:::"
 set boxwidth 0.8 absolute
